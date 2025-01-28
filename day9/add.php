@@ -10,7 +10,7 @@
 
         $sql = "insert into users(name, surname, email) values(:name, :surname, :email)";
 
-        $sqlQurery = $connect-> prepare($sql);
+        $sqlQurery = $connect->prepare($sql);
 
         $sqlQurery->bindParam(':name',$name);
         $sqlQurery->bindParam(':surname',$surname);
