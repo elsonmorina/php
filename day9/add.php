@@ -1,6 +1,6 @@
 <?php
 
-    include_once("config.php");
+    include_once('config.php');
 
     if(isset($_POST['submit']))
     {
@@ -10,15 +10,15 @@
 
         $sql = "insert into users(name, surname, email) values(:name, :surname, :email)";
 
-        $sqlQurery = $connect->prepare($sql);
+        $sqlQuery = $conn->prepare($sql);
 
-        $sqlQurery->bindParam(':name',$name);
-        $sqlQurery->bindParam(':surname',$surname);
-        $sqlQurery->bindParam(':email',$email);
+        $sqlQuery->bindParam(':name', $name);
+        $sqlQuery->bindParam(':surname', $surname);
+        $sqlQuery->bindParam(':email', $email);
 
-        $sqlQurery->execute();
+        $sqlQuery->execute();
 
-        echo "data saved successfully...";
+        echo "data saved successfully ...";
     }
     
 ?>
