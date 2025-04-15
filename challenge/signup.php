@@ -107,7 +107,7 @@
         <input type="password" id="password" name="password" placeholder="Password" required>
 
         <!-- Submit Button -->
-        <button type="submit">Sign Up</button>
+        <button type="submit" name="submit">Sign Up</button>
     </form>
 
     <div class="footer">

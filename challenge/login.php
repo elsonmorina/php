@@ -99,11 +99,11 @@
         <input type="password" id="password" name="password" placeholder="Password" required>
 
         <!-- Submit Button -->
-        <button type="submit">Login</button>
+        <button type="submit" name="submit">Login</button>
     </form>
 
     <div class="footer">
-        <p>Don't have an account? <a href="#">Sign up here</a></p>
+        <p>Don't have an account? <a href="signup.php">Sign up here</a></p>
     </div>
 </div>
 
