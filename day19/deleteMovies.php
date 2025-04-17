@@ -1,5 +1,5 @@
 <?php
-    <?php
+    
     include_once('config.php');
     
     $id=$_GET['id'];
@@ -10,5 +10,5 @@
     $prep->execute();
     
     header('Location:list_movies.php');
-    ?>
+    
 ?>
