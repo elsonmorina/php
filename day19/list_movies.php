@@ -6,7 +6,7 @@
     if(empty($_SESSION['username'])){
         header('Location:login.php');
     }
-    $sql="SELECT *FROM movies";
+    $sql="SELECT *FROM movies1";
     $selectMovies = $conn->prepare($sql);
     $selectMovies->execute();
 

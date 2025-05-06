@@ -1,7 +1,7 @@
 <?php
 
     include_once('config.php');
-    $sql="SELECT * FROM movies";
+    $sql="SELECT * FROM movies1";
     $selectMovies=$conn->prepare($sql);
     $selectMovies->execute();
     $movies_data=$selectMovies->fetchall();

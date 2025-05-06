@@ -17,7 +17,7 @@
         if(empty($name) || empty($username) ||empty($email) || empty($password) || empty($confirm_password)){
             echo "You have not filled in all the fields";
         }else{
-            $sql = "INSERT INTO users(name, username, email, password, confirm_password) VALUES(:name, :username, :email, :password, :confirm_password)";
+            $sql = "INSERT INTO users1(name, username, email, password, confirm_password) VALUES(:name, :username, :email, :password, :confirm_password)";
 
             $insertSQL = $conn->prepare($sql);
             $insertSQL->bindParam(':name',$name);
