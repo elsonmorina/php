@@ -13,7 +13,7 @@ if(isset($_POST['submit'])){
     if(empty($username)||empty($name)||empty($surname)||empty($email)||empty($password)){
         echo "You need to fill all the fields";
     }else{
-        $sql = "SELECT username FROM users WHERE username=:username";
+        $sql = "SELECT username FROM users1 WHERE username=:username";
         $tempSQL = $conn->prepare($sql);
         $tempSQL->bindParam(':username',$username);
         $tempSQL->execute();
@@ -23,7 +23,7 @@ if(isset($_POST['submit'])){
             header("refresh:2; url=signup.php");
         }
         else{
-            $sql = "INSERT INTO users (username, name, surname, email, password) VALUES (:username, :name, :surname, :email, :password)";
+            $sql = "INSERT INTO users1 (username, name, surname, email, password) VALUES (:username, :name, :surname, :email, :password)";
             $insertSQL = $conn->prepare($sql);
             $insertSQL ->bindParam(':username',$username);
             $insertSQL ->bindParam(':name',$name);
