@@ -9,7 +9,7 @@
         $username = $_POST['username'];
         $email = $_POST['email'];
 
-        $sql = "UPDATE users1 SET id=:id, name=:name, username=:username, email=:email WHERE id=:id";
+        $sql = "UPDATE users SET id=:id, name=:name, username=:username, email=:email WHERE id=:id";
 
         $prep = $conn->prepare($sql);
         $prep->bindParam(':id',$id);

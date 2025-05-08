@@ -1,7 +1,7 @@
 <?php
 
     include_once('config.php');
-    $sql="SELECT * FROM movies1";
+    $sql="SELECT * FROM movies";
     $selectMovies=$conn->prepare($sql);
     $selectMovies->execute();
     $movies_data=$selectMovies->fetchall();
@@ -26,7 +26,7 @@
 </head>
 <body>
 <header>
-  <div class="collapse bg-dark" id="navbarHeader">
+  <div class="collapse bg-dark" id="navbarHeader"> 
     <div class="container">
       <div class="row">
         <div class="col-sm-8 col-md-7 py-4">

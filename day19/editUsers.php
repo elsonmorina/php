@@ -6,7 +6,7 @@
 
     $id = $_GET['id'];
 
-    $sql = "SELECT * FROM users1 WHERE id=:id";
+    $sql = "SELECT * FROM users WHERE id=:id";
     $selectUser = $conn->prepare($sql);
     $selectUser->bindParam(':id',$id);
     $selectUser->execute();

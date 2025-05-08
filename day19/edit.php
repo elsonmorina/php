@@ -3,7 +3,7 @@
     include_once('config.php');
 
     $id = $_GET['id'];
-    $sql = "SELECT * FROM movies1 WHERE id=:id";
+    $sql = "SELECT * FROM movies WHERE id=:id";
     $selectMovie = $conn->prepare($sql);
     $selectMovie->bindParam(':id',$id);
     $selectMovie->execute();

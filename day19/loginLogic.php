@@ -11,7 +11,7 @@
         if(empty($username)||empty($password)){
             echo "Fill all the fields!!";
         }else{
-            $sql = "SELECT * FROM users1 WHERE username=:username";
+            $sql = "SELECT * FROM users WHERE username=:username";
 
             $selectUsers = $conn->prepare($sql);
 
