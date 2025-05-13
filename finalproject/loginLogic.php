@@ -28,10 +28,11 @@
                     $_SESSION['id']=$data['id'];
                     $_SESSION['username']=$data['username'];
                     $_SESSION['name']=$data['name'];
+                    $_SESSION['surname']=$data['surname'];
                     $_SESSION['email']=$data['email'];
-                    $_SESSION['is_admin']=$data['is_admin'];
+                    
 
-                    header('Location:dashboard.php');
+                    header('Location:home.php');
                 }else{
                     echo "the password is not valid";
                 }
