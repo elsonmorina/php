@@ -8,14 +8,57 @@
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       background-color: #f2f4f8;
       margin: 0;
-      padding: 20px;
+      padding: 0;
     }
 
     h1 {
       text-align: center;
-      color: #333;
+      
+    }
+    
+    header {
+      background: #3f51b5;
+      padding: 20px;
+      text-align: center;
+      color: white;
     }
 
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background: #303f9f;
+      padding: 10px 0;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffeb3b;
+    }
+
+    nav a.logout {
+      background: #ff5252;
+      padding: 8px 16px;
+      border-radius: 5px;
+      color: white;
+    }
+
+    nav a.logout:hover {
+      background: #e53935;
+      color: white;
+    }
     table {
       width: 90%;
       margin: 30px auto;
@@ -81,6 +124,17 @@
 		$users = $getusers->fetchall();
 		?>
 	 <table>
+    <header>
+    <h1>FitnessWeb</h1>
+    <p>Your Personal Fitness Companion</p>
+  </header>
+
+  <nav>
+    <a href="home.php">Home</a>
+    <a href="dashboard.php">Dashboard</a>
+    
+    <a href="logout.php" class="logout">Logout</a>
+  </nav>
 		<thead>
 			
 			<tr>

@@ -50,6 +50,6 @@ can make it a real challenge to consume enough calories through whole foods alon
 ('UNIVERSAL STORM','800g','35$','UNIVERSAL STORM is a product based on the mix until 6 forms of creatine and anabolic compounds to support their 
 absorption and transport. This ensures that you get the maximum effects of creatine 
 supplementation!','seventhprotein.jpg'),
-('','','','','eightprotein.jpg'),
-('','','','','ninthprotein.jpg'),
-('','','','','tenthprotein.jpg');
+('Universal Nutrition Animal M-Stak','21-Packs','62$','
+From green beginner to diehard vet, we’ve all gone through it. Skidding to a halt, our progress idles on a wretched plateau. Can’t gain another pound, workouts are stale, lifts are static. This is the hardgainer’s syndrome, and from the most slender of ectomorphs to the most muscular endomorph, we’ve all been there. Desperate to ignite new growth, we’ll try almost anything.','eightprotein.jpg'),
+('Iron Horse Series – Iron Mass 20 ','1000g','56$','IHS Iron Mass 20 supplies the body with energy from valuable sources of carbohydrates, proteins and healthy fats, so that your body can derive as many benefits from them as possible.','ninthprotein.jpg'),

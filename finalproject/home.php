@@ -149,7 +149,7 @@
   </header>
 
   <nav>
-    <a href="#">Home</a>
+    <a href="home.php">Home</a>
     <a href="dashboard.php">Dashboard</a>
     
     <a href="logout.php" class="logout">Logout</a>
@@ -169,10 +169,10 @@
           <p>Record your daily workouts and view progress over time.</p>
         </div>
       </a>
-      <a href="weighttracker.php">
+      <a href="list_proteins.php">
         <div class="card">
-          <h3>Weight Tracker</h3>
-          <p>Keep tabs on your weight and health goals with progress charts.</p>
+          <h3>Proteins</h3>
+          <p>Build your body with our proteins.</p>
         </div>
       </a>
       <a href="streakgoals.php">
