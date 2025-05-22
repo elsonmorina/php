@@ -137,7 +137,8 @@
   <div class="d-flex justify-content-between align-items-center">
     
     <small class="text-muted">Price: <?php echo $product_data['price']; ?></small>
-<small class="text-muted">Weight:<?php echo $product_data['weight']; ?></small>
+<small class="text-muted">Weight:<?php echo $product_data['weight']; ?>g</small>
+<a href="details.php?id=<?=$product_data['id'] ?>"  class="btn btn-sm btn-outline-secondary" >View</a>
 </div>
 </div>
 </div>
