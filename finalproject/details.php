@@ -83,6 +83,9 @@
                     <input type="number" class="form-control" id="floatingInput" placeholder="<?php echo $products_data['weight'];  ?>" readonly name="weight" placeholder="g" >
                     <label for="price">Price</label>
                     <input type="number" class="form-control" id="floatingInput" placeholder="<?php echo $products_data['price'];  ?>" readonly name="final_price" >
+                    <?php
+  
+                    ?>
                     <!-- <div class="form-floating">
                       <select name="time">
                         <option value="1000g">1000g-50$</option>
